@@ -3,10 +3,11 @@ ul {
 }
 
 li {
-	display: inline;
 	text-align: center;
+	display: inline;
 }
 
-.navbar ul {
+.navbar {
+	display: inline;
 	float: right;
 }
