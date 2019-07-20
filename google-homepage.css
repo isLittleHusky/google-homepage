@@ -1,13 +1,58 @@
+nav {
+	overflow: hidden;
+}
+
 ul {
 	list-style-type: none;	
 }
 
 li {
-	text-align: center;
 	display: inline;
+	margin: 7px;
 }
 
-.navbar {
+.navbar ul {
+	float: right;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar img {
 	display: inline;
 	float: right;
+	margin: 20px
+}
+
+a {
+	text-decoration: none;
+	color: dimgrey;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.search img, input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search div {
+	margin-top: 100px;
+}
+
+input {
+	width: 500px;
+	height: 25px;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: dimgrey;
+	font-size: 18px;
+	color: dimgrey;
+	padding: 10px;
 }
